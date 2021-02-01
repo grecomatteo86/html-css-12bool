@@ -10,7 +10,7 @@
   border: 1px solid red;
 }
 .debug [class*='col_']{
-  border: 1px solid green;
+  border: 1px solid black;
   height: 100px;
 }
 /*/debug_rules*/
