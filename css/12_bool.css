@@ -29,6 +29,7 @@
   float:left;
 }
 /*/float+clearfix*/
+/*columns*/
 .col_1{
   width: calc( ( 100% / 12) * 1 );
 }
@@ -65,4 +66,43 @@
 .col_12{
   width: calc( ( 100% / 12) * 12 );
 }
+/*/columns*/
+/*offset*/
+.col_offset_1{
+  margin-left: calc( ( 100% / 12) * 1 );
+}
+.col_offset_2{
+  margin-left: calc( ( 100% / 12) * 2 );
+}
+.col_offset_3{
+  margin-left: calc( ( 100% / 12) * 3 );
+}
+.col_offset_4{
+  margin-left: calc( ( 100% / 12) * 4 );
+}
+.col_offset_5{
+  margin-left: calc( ( 100% / 12) * 5 );
+}
+.col_offset_6{
+  margin-left: calc( ( 100% / 12) * 6 );
+}
+.col_offset_7{
+  margin-left: calc( ( 100% / 12) * 7 );
+}
+.col_offset_8{
+  margin-left: calc( ( 100% / 12) * 8 );
+}
+.col_offset_9{
+  margin-left: calc( ( 100% / 12) * 9 );
+}
+.col_offset_10{
+  margin-left: calc( ( 100% / 12) * 10 );
+}
+.col_offset_11{
+  margin-left: calc( ( 100% / 12) * 11 );
+}
+.col_offset_12{
+  margin-left: calc( ( 100% / 12) * 12 );
+}
+/*/offset*/
 /*/framework*/
