@@ -8,12 +8,61 @@
 /*debug_rules*/
 .debug .container{
   border: 1px solid red;
-  min-height: 200px;
+}
+.debug [class*='col_']{
+  border: 1px solid green;
+  height: 100px;
 }
 /*/debug_rules*/
 /*framework*/
 .container{
   max-width: 1170px;
   margin: 0 auto;
+}
+/*float+clearfix*/
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+[class*='col_']{
+  float:left;
+}
+/*/float+clearfix*/
+.col_1{
+  width: calc( ( 100% / 12) * 1 );
+}
+.col_2{
+  width: calc( ( 100% / 12) * 2 );
+}
+.col_3{
+  width: calc( ( 100% / 12) * 3 );
+}
+.col_4{
+  width: calc( ( 100% / 12) * 4 );
+}
+.col_5{
+  width: calc( ( 100% / 12) * 5 );
+}
+.col_6{
+  width: calc( ( 100% / 12) * 6 );
+}
+.col_7{
+  width: calc( ( 100% / 12) * 7 );
+}
+.col_8{
+  width: calc( ( 100% / 12) * 8 );
+}
+.col_9{
+  width: calc( ( 100% / 12) * 9 );
+}
+.col_10{
+  width: calc( ( 100% / 12) * 10 );
+}
+.col_11{
+  width: calc( ( 100% / 12) * 11 );
+}
+.col_12{
+  width: calc( ( 100% / 12) * 12 );
 }
 /*/framework*/
