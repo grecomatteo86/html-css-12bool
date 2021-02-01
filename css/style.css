@@ -1,4 +1,10 @@
 .container{
   text-align: center;
   line-height: 100px;
+  background-color: rgb(254, 192, 203);
+}
+.container:last-child .col_2,.container:last-child .col_8,.container:last-child .col_6{
+  background-color: rgb(238, 128, 130);
+  padding: 1px;
+  height: 100%;
 }
