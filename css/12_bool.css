@@ -5,3 +5,15 @@
   box-sizing: border-box;
 }
 /*/reset*/
+/*debug_rules*/
+.debug .container{
+  border: 1px solid red;
+  min-height: 200px;
+}
+/*/debug_rules*/
+/*framework*/
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/*/framework*/
