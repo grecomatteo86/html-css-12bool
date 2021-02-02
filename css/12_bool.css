@@ -272,6 +272,11 @@
     margin-left: calc( ( 100% / 12) * 12 );
   }
   /*/offset_lg*/
+  /*disappeared*/
+  .d_none_lg{
+    display: none;
+  }
+  /*/disappeared*/
 }
 /*/>992px_desktop*/
 /*/responsive*/
