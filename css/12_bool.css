@@ -30,7 +30,7 @@
 }
 /*/float+clearfix*/
 /*responsive*/
-/*<767px_smartphone*/
+/*from_0_to_767px_smartphone*/
 @media screen and (max-width:768px) {
   .col_xs_1{
     width: calc( ( 100% / 12) * 1 );
@@ -106,8 +106,13 @@
     margin-left: calc( ( 100% / 12) * 12 );
   }
   /*/offset_xs*/
+  /*disappeared*/
+  .d_none_xs{
+    display: none;
+  }
+  /*/disappeared*/
 }
-/*/<767px_smartphone*/
+/*/from_0_to_767px_smartphone*/
 /*from_768px_to_991_tablet*/
 @media screen and (min-width:768px max-width:991px) {
   .col_md_1{
@@ -184,6 +189,11 @@
     margin-left: calc( ( 100% / 12) * 12 );
   }
   /*/offset_md*/
+  /*disappeared*/
+  .d_none_md{
+    display: none;
+  }
+  /*/disappeared*/
 }
 /*/from_768px_to_991_tablet*/
 /*>992px_desktop*/
